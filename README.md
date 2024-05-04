@@ -20,7 +20,7 @@ git clone https://github.com/Prana-vvb/Basic-cipher-tool.git
 
 ## Usage
 
-Open up a terminal/command prompt/powershell window and cd to where you have installed the tool.
+Open up a terminal/command prompt/powershell window and cd to where you have installed the tool
 Type in 
 ```bash
 python3 cyTool.py -h
@@ -48,3 +48,32 @@ options:
   -rf RAILFENCE, --railfence RAILFENCE
                         Railfence cipher key. Syntax: [-rf <key>], [--railfence <key>]
 ```
+
+##Examples
+
+```bash
+C:\Basic-cipher-tool>py cyTool.py --encrypt Hello -rot 3
+Encrypting "Hello" using Rotation cipher with key = 3
+Result = Khoor
+
+C:\Basic-cipher-tool>py cyTool.py --encrypt Hello -v key
+Encrypting "Hello" using Vigenere cipher with keyword = "key"
+Result = rijvs
+```
+
+## Contributing
+
+Feel free to contribute to improve this tool. Here are some ways you can contribute:
+
+### Bug Reports
+
+If you encounter any bugs or unexpected behavior while using the tool, please [open an issue](https://github.com/Prana-vvb/Basic-cipher-tool/issues) on GitHub and provide as much detail as possible, including steps to reproduce the issue.
+
+### Features
+
+If you have ideas for new features or improvements like adding new ciphers or optimising the current ones, feel free to [open an issue](https://github.com/Prana-vvb/Basic-cipher-tool/issues) on GitHub to discuss them.
+
+Or if you'd like to contribute directly to the codebase, you can fork the repository, make your changes, and submit a pull request.
+
+When submitting a pull request, provide a clear description of the changes you've made and why they're necessary.
+
