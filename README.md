@@ -20,7 +20,7 @@ git clone https://github.com/Prana-vvb/Basic-cipher-tool.git
 
 ## Usage
 
-Open up a terminal/command prompt/powershell window and cd to where you have installed the tool
+Open up a terminal/command prompt/powershell window and cd to where you have installed the tool.
 Type in 
 ```bash
 python3 cyTool.py -h
