@@ -49,7 +49,7 @@ options:
                         Railfence cipher key. Syntax: [-rf <key>], [--railfence <key>]
 ```
 
-##Examples
+## Examples
 
 ```bash
 C:\Basic-cipher-tool>py cyTool.py --encrypt Hello -rot 3
