@@ -11,10 +11,13 @@ There will be more ciphers added in the future and hopefully make it a 'Complex 
 
 ## Installation
 
-To install, you can use :
+To install, you can use either
 
 ```bash
 gh repo clone Prana-vvb/Basic-cipher-tool
+```
+or
+```
 git clone https://github.com/Prana-vvb/Basic-cipher-tool.git
 ```
 
