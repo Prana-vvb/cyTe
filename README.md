@@ -17,7 +17,7 @@ To install, you can use either
 gh repo clone Prana-vvb/Basic-cipher-tool
 ```
 or
-```
+```bash
 git clone https://github.com/Prana-vvb/Basic-cipher-tool.git
 ```
 
