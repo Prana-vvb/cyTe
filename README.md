@@ -59,6 +59,14 @@ Result = Khoor
 C:\Basic-cipher-tool>py cyTool.py --encrypt Hello -v key
 Encrypting "Hello" using Vigenere cipher with keyword = "key"
 Result = rijvs
+
+C:\Basic-cipher-tool>py cyTool.py --decrypt Wdolr -rf 3
+Decrypting "Wdolr" using Railfence cipher with depth = 3
+Result = World
+
+C:\Basic-cipher-tool>py cyTool.py --decrypt vnmtbz -p monarchy
+Decrypting "vnmtbz" using Playfair cipher with keyword = "monarchy"
+Result = worldx
 ```
 
 ## Contributing
