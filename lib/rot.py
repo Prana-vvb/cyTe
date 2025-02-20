@@ -5,14 +5,15 @@ def encrypt(msg: str, key: int):
         sIndex = ord(s)
         if s.isalpha():
             if s.isupper():
-                tIndex = (sIndex + key - 65)%26 + 65
+                tIndex = (sIndex + key - 65) % 26 + 65
             else:
-                tIndex = (sIndex + key - 97)%26 + 97
+                tIndex = (sIndex + key - 97) % 26 + 97
             txt += chr(tIndex)
         else:
             txt += s
 
     return txt
+
 
 def decrypt(msg: str, key: int):
     txt = ''
@@ -21,9 +22,9 @@ def decrypt(msg: str, key: int):
         sIndex = ord(s)
         if s.isalpha():
             if s.isupper():
-                tIndex = (sIndex - key - 65)%26 + 65
+                tIndex = (sIndex - key - 65) % 26 + 65
             else:
-                tIndex = (sIndex - key - 97)%26 + 97
+                tIndex = (sIndex - key - 97) % 26 + 97
             txt += chr(tIndex)
         else:
             txt += s

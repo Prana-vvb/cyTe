@@ -27,8 +27,8 @@ def encrypt(plaintext: str, key: int):
 
     return "".join(ciphertext)
 
-def decrypt(ciphertext: str, key: int):
 
+def decrypt(ciphertext: str, key: int):
     rail = [['*' for i in range(len(ciphertext))]
             for j in range(key)]
 
