@@ -2,10 +2,10 @@
 
 Basic cipher Tool is a command-line Python tool designed to encrypt/decrypt some text using basic ciphers
 It currently offer:
-1.Rotation/Caesar cipher
-2.Vigenere cipher
-3.Playfair cipher
-4.Railfence cipher
+1. Rotation/Caesar cipher
+2. Vigenere cipher
+3. Playfair cipher
+4. Railfence cipher
 
 There will be more ciphers added in the future and hopefully make it a 'Complex cipher Tool' :P
 
